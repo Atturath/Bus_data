@@ -1,3 +1,7 @@
+# Current problem: data table may not be efficient
+# The nature of data: web API with nested structure: everytime a request returns 3 keys, all the information is contained under "entity";
+
+
 library(mongolite)
 library(tidyverse)
 
