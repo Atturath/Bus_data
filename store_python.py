@@ -1,5 +1,6 @@
 # The main purpose is to get API every one hour and store it in the cloud database (MongoDB)
 # There are four main parts: 1.set up API, 2.set up database access, 3.main function to load str data into json and store it in cloud, and 4.schedule
+# Next plan: using VPS to automate the task
 
 import json
 import requests
