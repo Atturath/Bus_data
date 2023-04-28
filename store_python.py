@@ -9,7 +9,7 @@ import schedule
 import time
 
 #-------------API-----------#
-key = '6eed86a9a0984545924b74935e335283'
+key = '********************'
 
 headers = {
     'Ocp-Apim-Subscription-Key': key
@@ -18,7 +18,7 @@ headers = {
 url = 'https://api.at.govt.nz/realtime/legacy'
 
 #-------------MongoDB-----------#
-client = MongoClient("mongodb+srv://Anita:Y6cF7ICXqbZyFgwL@cluster0.7gfdq86.mongodb.net/test")
+client = MongoClient("mongodb+srv://<username>:<password>@cluster0.7gfdq86.mongodb.net/test")
 db = client.get_database('AT_Bus')
 records = db.AT_Bus
 
