@@ -5,7 +5,7 @@
 library(mongolite)
 library(tidyverse)
 
-connection_string = "mongodb+srv://Anita:Y6cF7ICXqbZyFgwL@cluster0.7gfdq86.mongodb.net/test"
+connection_string = "mongodb+srv://<username>:<password>@cluster0.7gfdq86.mongodb.net/test"
 bus = mongo(collection="AT_Bus", 
             db="AT_Bus", url=connection_string)
 count <- bus$aggregate('[{"$unwind": "$entity"}, {"$match":
