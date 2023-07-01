@@ -8,13 +8,14 @@ A **descriptive data showcase** can be found: https://anitakoh23897.shinyapps.io
 **store_python.py**: Python codes that capture the data. It was running on Google VPS previously.
 
 **Data_Cleaning.R**: It includes 4 main parts: 
-    1. Elementary data cleaning: querying, unlisting and extract the information
 
-    2. Match the stop information for stop and weather with data.table
+ 1. Elementary data cleaning: querying, unlisting and extract the information
 
-    3. Adding weekday with lubridate
+ 2. Match the stop information for stop and weather with data.table
 
-    4. Transform spatial data with sf: within 500 meters as "in"
+ 3. Adding weekday with lubridate
+
+ 4. Transform spatial data with sf: within 500 meters as "in"
 
 **Data_Cleaning.R**: Shiny dashboard codes.
 
